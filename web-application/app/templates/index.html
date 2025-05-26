@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Music Recommendation System</title>
+<link rel="stylesheet" href="{{ url_for('static',filename='styles.css') }}">
+</head>
+<body>
+<div class="card">
+<h2>🚀 Start your journey</h2>
+<form id="profileForm">
+<input name="full_name" placeholder="Full Name" required>
+<input name="city" placeholder="City" required>
+<input name="age" type="number" min="5" max="85" placeholder="Age" required>
+<select name="gender">
+<option value="male">Male</option>
+<option value="female">Female</option>
+</select>
+<select name="registered_via">
+<option value="web-browser">web-browser</option>
+<option value="mobile-app">mobile-app</option>
+</select>
+<input name="registration_time" type="datetime-local" required>
+<input name="expiration_date" type="datetime-local" required>
+<button type="submit">Let’s Go!</button>
+</form>
+</div>
+<script src="{{ url_for('static',filename='main.js') }}"></script>
+</body>
+</html>

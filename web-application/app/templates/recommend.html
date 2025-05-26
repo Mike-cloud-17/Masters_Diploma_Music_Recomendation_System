@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Recommendation</title>
+<link rel="stylesheet" href="{{ url_for('static',filename='styles.css') }}">
+</head>
+<body>
+<div class="track-card">
+<h2 id="trackTitle"></h2>
+<p id="trackMeta"></p>
+<div id="spotifyEmbed"></div>
+<div id="vkEmbed"></div>
+<div class="btn-row">
+<button id="nextBtn">▶ Next</button>
+<button id="genreBtn">🎧 By Genre</button>
+<button id="likeBtn">👍 Like</button>
+<button id="dislikeBtn">👎 Dislike</button>
+</div>
+</div>
+<script>
+const initialData={{ data|tojson }};
+</script>
+<script src="{{ url_for('static',filename='main.js') }}"></script>
+</body>
+</html>

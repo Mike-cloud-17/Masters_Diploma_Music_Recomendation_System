@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# виртуальные окружения
+venv/
+
+# данные/модели
+# static-артефакты
+data/*
+!data/members.csv
+
+ML-models/checkpoints/
+models/checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+## Большие модели
+ML-models/final-models/rf_model.joblib
+# ML-models/final-models/lgb_model.txt
+# ML-models/final-models/dt_model.joblib
+# ML-models/final-models/dec_tree.pkl

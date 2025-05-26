@@ -1,0 +1,7 @@
+body{margin:0;font-family:sans-serif;background:#111;color:#eee;display:flex;justify-content:center;align-items:center;height:100vh}
+.card,.track-card{background:#222;padding:24px;border-radius:12px;box-shadow:0 6px 12px rgba(0,0,0,.4);width:320px;text-align:center}
+input,select,button{width:100%;padding:8px;margin:6px 0;border:none;border-radius:6px;font-size:14px}
+button{background:#0ad671;color:#fff;cursor:pointer}
+button:hover{opacity:.85}
+.btn-row{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.btn-row button{flex:1}
